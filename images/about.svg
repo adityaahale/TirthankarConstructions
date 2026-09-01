@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder photo of the Tirthankars Contractor team">
+  <defs>
+    <linearGradient id="bg-about" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2933"/>
+      <stop offset="100%" stop-color="#12181f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-about)"/>
+  <g opacity="0.15" stroke="#f2994a" stroke-width="24">
+    <line x1="-50" y1="650" x2="650" y2="-50"/>
+    <line x1="150" y1="650" x2="850" y2="-50"/>
+  </g>
+  <circle cx="400" cy="250" r="90" fill="none" stroke="#f2994a" stroke-width="6"/>
+  <g stroke="#f2994a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M360 260 l30 30 l50 -60"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#e8e6e3" letter-spacing="1">Your Team Photo Here</text>
+  <text x="400" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9aa5b1">Replace images/about.svg with a real photo</text>
+</svg>

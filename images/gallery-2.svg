@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder photo: home renovation">
+  <rect width="800" height="600" fill="#232d38"/>
+  <g opacity="0.12" stroke="#f2994a" stroke-width="20">
+    <line x1="0" y1="0" x2="600" y2="600"/>
+    <line x1="200" y1="0" x2="800" y2="600"/>
+  </g>
+  <circle cx="400" cy="240" r="80" fill="none" stroke="#f2994a" stroke-width="6"/>
+  <g stroke="#f2994a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M360 260 l40 -40 l40 40"/>
+    <path d="M370 250 v40 h60 v-40"/>
+  </g>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#e8e6e3">Home Renovation</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#9aa5b1">Placeholder — swap in images/gallery-2.svg</text>
+</svg>

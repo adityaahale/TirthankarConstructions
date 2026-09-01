@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder photo: general construction site">
+  <rect width="800" height="600" fill="#232d38"/>
+  <g opacity="0.12" stroke="#f2994a" stroke-width="20">
+    <line x1="0" y1="600" x2="600" y2="0"/>
+    <line x1="200" y1="600" x2="800" y2="0"/>
+  </g>
+  <circle cx="400" cy="240" r="80" fill="none" stroke="#f2994a" stroke-width="6"/>
+  <g stroke="#f2994a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M365 250 l35 -45 l35 45 z"/>
+    <path d="M390 250 l10 -13 l10 13"/>
+  </g>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#e8e6e3">General Construction</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#9aa5b1">Placeholder — swap in images/gallery-6.svg</text>
+</svg>
