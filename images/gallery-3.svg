@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder photo: flooring and tile work">
-  <rect width="800" height="600" fill="#3a4741"/>
-  <g opacity="0.15" stroke="#dcaa85" stroke-width="2">
+  <rect width="800" height="600" fill="#eff4f9"/>
+  <g opacity="0.15" stroke="#3c5f78" stroke-width="2">
     <line x1="0" y1="150" x2="800" y2="150"/>
     <line x1="0" y1="300" x2="800" y2="300"/>
     <line x1="0" y1="450" x2="800" y2="450"/>
@@ -8,13 +8,13 @@
     <line x1="400" y1="0" x2="400" y2="600"/>
     <line x1="600" y1="0" x2="600" y2="600"/>
   </g>
-  <circle cx="400" cy="240" r="80" fill="none" stroke="#dcaa85" stroke-width="6"/>
-  <g fill="none" stroke="#dcaa85" stroke-width="6">
+  <circle cx="400" cy="240" r="80" fill="none" stroke="#3c5f78" stroke-width="6"/>
+  <g fill="none" stroke="#3c5f78" stroke-width="6">
     <rect x="365" y="205" width="30" height="30"/>
     <rect x="405" y="205" width="30" height="30"/>
     <rect x="365" y="245" width="30" height="30"/>
     <rect x="405" y="245" width="30" height="30"/>
   </g>
-  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#eef0ec">Flooring &amp; Tile Work</text>
-  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#c3ccc5">Placeholder — swap in images/gallery-3.svg</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#2f4a5e">Flooring &amp; Tile Work</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#616d77">Placeholder — swap in images/gallery-3.svg</text>
 </svg>

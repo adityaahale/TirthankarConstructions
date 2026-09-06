@@ -7,13 +7,12 @@
          "T"            = Tirthankars; crossbar reads as lintel, stem as column
          three dots     = Ratnatraya (right faith, knowledge, conduct),
                           doubling as foundation footings -->
-  <polygon points="112,60 86,105 34,105 8,60 34,15 86,15"
-           fill="#3a4741" stroke="#dcaa85" stroke-width="5" stroke-linejoin="round"/>
-  <circle cx="60" cy="27.5" r="3" fill="#dcaa85"/>
-  <path d="M44 35 Q60 42 76 35" fill="none" stroke="#dcaa85"
+  <polygon points="112,60 86,105 34,105 8,60 34,15 86,15" fill="#2f4a5e"/>
+  <circle cx="60" cy="27.5" r="3" fill="#fdfbf7"/>
+  <path d="M44 35 Q60 42 76 35" fill="none" stroke="#fdfbf7"
         stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M40 48 H80 V58 H65 V79 H55 V58 H40 Z" fill="#dcaa85"/>
-  <g fill="#dcaa85">
+  <path d="M40 48 H80 V58 H65 V79 H55 V58 H40 Z" fill="#fdfbf7"/>
+  <g fill="#e8b598">
     <circle cx="47" cy="90" r="4"/>
     <circle cx="60" cy="90" r="4"/>
     <circle cx="73" cy="90" r="4"/>
