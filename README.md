@@ -26,10 +26,34 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
+## Palette
+
+Muted sage greens, a warm clay accent and an ivory ground — chosen to feel
+calm rather than high-contrast and industrial. Tokens live at the top of
+`css/styles.css`.
+
+The clay accent ships in two tints on purpose: `--clay-600` for accents on
+the ivory sections and `--clay-300` for accents on the sage sections. A
+single mid-tone can't clear WCAG AA on both grounds, so the dark sections
+override the accent (see the `.hero .eyebrow, .contact .section-eyebrow`
+rule). Every text/background pair in the theme meets AA (4.5:1) — worth
+re-checking if you retune the colours, since "calm" and "too faint to
+read" sit close together.
+
 ## Logo
 
 The logo is an original SVG mark — a hexagonal badge (bolt head) holding a
-roofline over a bold "T", with a plumb bob hanging off the stem:
+stack of three elements, which read as both Jain symbolism and building
+structure:
+
+- **Dot above a shallow crescent** — Siddhashila, the abode of liberated
+  souls, at the top of the composition as it sits at the top of the loka.
+- **The bold "T"** — Tirthankars; the crossbar reads as a lintel beam, the
+  stem as a column.
+- **Three dots along the base** — the Ratnatraya (right faith, right
+  knowledge, right conduct), doubling as foundation footings.
+
+It ships in two files:
 
 - `images/logo-mark.svg` — the badge on its own. Used as the browser tab
   favicon, and available if the header ever wants a mark next to the text.

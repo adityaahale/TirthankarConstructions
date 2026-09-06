@@ -1,15 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Tirthankars Contractor logo mark">
   <title>Tirthankars Contractor</title>
-  <!-- Badge: flat-top hexagon (bolt head) -->
-  <polygon points="112,60 86,105 34,105 8,60 34,15 86,15"
-           fill="#1f2933" stroke="#f2994a" stroke-width="5" stroke-linejoin="round"/>
   <!-- NOTE: this mark is duplicated inside images/about.svg (an SVG loaded via
-       <img> can't reference an external file), so keep the two in sync. -->
-  <!-- Roofline -->
-  <path d="M34 42 L60 26 L86 42" fill="none" stroke="#f2994a"
-        stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- "T" — crossbar reads as lintel beam, stem as column -->
-  <path d="M42 54 H78 V64 H65 V82 H55 V64 H42 Z" fill="#f2994a"/>
-  <!-- Plumb bob -->
-  <path d="M60 82 L66 88 L60 94 L54 88 Z" fill="#f2994a"/>
+       <img> can't reference an external file), so keep the two in sync.
+       Composition, top to bottom:
+         dot + crescent = Siddhashila, the abode of liberated souls
+         "T"            = Tirthankars; crossbar reads as lintel, stem as column
+         three dots     = Ratnatraya (right faith, knowledge, conduct),
+                          doubling as foundation footings -->
+  <polygon points="112,60 86,105 34,105 8,60 34,15 86,15"
+           fill="#3a4741" stroke="#dcaa85" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="60" cy="27.5" r="3" fill="#dcaa85"/>
+  <path d="M44 35 Q60 42 76 35" fill="none" stroke="#dcaa85"
+        stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M40 48 H80 V58 H65 V79 H55 V58 H40 Z" fill="#dcaa85"/>
+  <g fill="#dcaa85">
+    <circle cx="47" cy="90" r="4"/>
+    <circle cx="60" cy="90" r="4"/>
+    <circle cx="73" cy="90" r="4"/>
+  </g>
 </svg>

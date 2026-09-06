@@ -2,15 +2,15 @@
   <title>Tirthankars Contractor — Build, Renovate, Repair</title>
   <defs>
     <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1f2933"/>
-      <stop offset="100%" stop-color="#12181f"/>
+      <stop offset="0%" stop-color="#3a4741"/>
+      <stop offset="100%" stop-color="#2f3a35"/>
     </linearGradient>
     <radialGradient id="badge-glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#f2994a" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#f2994a" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#dcaa85" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#dcaa85" stop-opacity="0"/>
     </radialGradient>
     <pattern id="blueprint" width="50" height="50" patternUnits="userSpaceOnUse">
-      <path d="M50 0 L0 0 L0 50" fill="none" stroke="#f2994a" stroke-width="1" stroke-opacity="0.06"/>
+      <path d="M50 0 L0 0 L0 50" fill="none" stroke="#dcaa85" stroke-width="1" stroke-opacity="0.06"/>
     </pattern>
   </defs>
 
@@ -20,7 +20,7 @@
   <ellipse cx="400" cy="180" rx="260" ry="200" fill="url(#badge-glow)"/>
 
   <!-- Corner brackets -->
-  <g fill="none" stroke="#f2994a" stroke-width="3" stroke-opacity="0.55" stroke-linecap="square">
+  <g fill="none" stroke="#dcaa85" stroke-width="3" stroke-opacity="0.5" stroke-linecap="square">
     <path d="M30 70 V30 H70"/>
     <path d="M730 30 H770 V70"/>
     <path d="M30 530 V570 H70"/>
@@ -30,27 +30,32 @@
   <!-- Logo mark — kept in sync with images/logo-mark.svg -->
   <g transform="translate(330 105) scale(1.1667)">
     <polygon points="112,60 86,105 34,105 8,60 34,15 86,15"
-             fill="#1f2933" stroke="#f2994a" stroke-width="5" stroke-linejoin="round"/>
-    <path d="M34 42 L60 26 L86 42" fill="none" stroke="#f2994a"
-          stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M42 54 H78 V64 H65 V82 H55 V64 H42 Z" fill="#f2994a"/>
-    <path d="M60 82 L66 88 L60 94 L54 88 Z" fill="#f2994a"/>
+             fill="#3a4741" stroke="#dcaa85" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="60" cy="27.5" r="3" fill="#dcaa85"/>
+    <path d="M44 35 Q60 42 76 35" fill="none" stroke="#dcaa85"
+          stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M40 48 H80 V58 H65 V79 H55 V58 H40 Z" fill="#dcaa85"/>
+    <g fill="#dcaa85">
+      <circle cx="47" cy="90" r="4"/>
+      <circle cx="60" cy="90" r="4"/>
+      <circle cx="73" cy="90" r="4"/>
+    </g>
   </g>
 
   <!-- Wordmark -->
   <text x="403" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="46" font-weight="bold" letter-spacing="6" fill="#e8e6e3">TIRTHANKARS</text>
+        font-size="46" font-weight="bold" letter-spacing="6" fill="#eef0ec">TIRTHANKARS</text>
   <text x="406.5" y="352" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="27" letter-spacing="13" fill="#f2994a">CONTRACTOR</text>
+        font-size="27" letter-spacing="13" fill="#dcaa85">CONTRACTOR</text>
 
-  <line x1="300" y1="384" x2="500" y2="384" stroke="#f2994a" stroke-width="2" stroke-opacity="0.55"/>
+  <line x1="300" y1="384" x2="500" y2="384" stroke="#dcaa85" stroke-width="2" stroke-opacity="0.5"/>
 
   <text x="400" y="422" text-anchor="middle"
         font-family="'Nirmala UI', 'Kohinoor Devanagari', 'Noto Sans Devanagari', Arial, sans-serif"
-        font-size="24" fill="#9aa5b1">तीर्थंकर्स कॉन्ट्रैक्टर</text>
+        font-size="24" fill="#c3ccc5">तीर्थंकर्स कॉन्ट्रैक्टर</text>
 
   <text x="402.5" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="15" letter-spacing="5" fill="#9aa5b1" fill-opacity="0.85">BUILD · RENOVATE · REPAIR</text>
+        font-size="15" letter-spacing="5" fill="#c3ccc5" fill-opacity="0.9">BUILD · RENOVATE · REPAIR</text>
   <text x="402" y="502" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="13" letter-spacing="4" fill="#9aa5b1" fill-opacity="0.6">WARJE, PUNE</text>
+        font-size="13" letter-spacing="4" fill="#c3ccc5" fill-opacity="0.65">WARJE, PUNE</text>
 </svg>
