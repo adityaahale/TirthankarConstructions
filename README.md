@@ -49,21 +49,32 @@ add your form's endpoint as the `<form action="...">` in `index.html` and
 remove the `preventDefault()` handling in `js/main.js` (marked with a
 `TODO` comment at both spots).
 
-## Deployment (GitHub Pages, free)
+## Deployment (Vercel, free)
 
-This repo is set up to be served directly from the `tirthankar_v1` branch
-(a `.nojekyll` file at the root disables Jekyll processing so the static
-files are served as-is). One-time manual step for the repo owner:
+The site is plain static files, so Vercel serves it directly with no build
+step. One-time manual step for the repo owner (this needs your own Vercel
+login, so it can't be done from a session):
 
-1. Go to **Settings → Pages** in the GitHub repo.
-2. Under **Source**, choose **Deploy from a branch**.
-3. Branch: `tirthankar_v1`, folder: `/ (root)` → **Save**.
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub (free tier).
+2. Click **Add New → Project**, then import `adityaahale/TirthankarConstructions`.
+3. Set the **Project Name** to whatever you want as the subdomain, e.g.
+   `tirthankars-contractor` → the site becomes
+   `https://tirthankars-contractor.vercel.app` (no personal username in
+   the URL).
+4. Framework Preset: **Other**. Leave the Build Command empty and Output
+   Directory as the repo root — there's nothing to build.
+5. Deploy. Every future push to `tirthankar_v1` (or whichever branch is
+   set as the Production Branch in the Vercel project settings) will
+   auto-deploy.
 
-The site will then be live at:
+A custom domain can be added later for free in the same Vercel project's
+**Settings → Domains** if one is purchased.
 
-```
-https://adityaahale.github.io/TirthankarConstructions/
-```
+### Alternative: GitHub Pages
 
-A custom domain can be added later for free via the same Pages settings
-page if one is purchased.
+The repo also includes a `.nojekyll` file, so it can alternatively be
+served straight from GitHub Pages (**Settings → Pages → Deploy from a
+branch → `tirthankar_v1` / `/(root)`**), which publishes at
+`https://adityaahale.github.io/TirthankarConstructions/` — note this URL
+does include the GitHub username, which is why Vercel is the primary
+recommendation above.
