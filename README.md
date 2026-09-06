@@ -26,13 +26,26 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
+## Logo
+
+The logo is an original SVG mark — a hexagonal badge (bolt head) holding a
+roofline over a bold "T", with a plumb bob hanging off the stem:
+
+- `images/logo-mark.svg` — the badge on its own. Used as the browser tab
+  favicon, and available if the header ever wants a mark next to the text.
+- `images/about.svg` — the full brand card (badge + wordmark + Devanagari
+  name + tagline) shown in the About section.
+
+The mark's geometry is duplicated inside `about.svg` because an SVG loaded
+through an `<img>` tag can't reference an external file — if you edit the
+mark, update both files.
+
 ## Placeholder images
 
-No real project photos were available yet, so `images/` currently contains
-generated SVG placeholders instead of photos:
+No real project photos were available yet, so these are generated SVG
+placeholders rather than photos:
 
 - `images/hero-bg.svg` — hero section background
-- `images/about.svg` — About section photo
 - `images/gallery-1.svg` … `images/gallery-6.svg` — project gallery tiles
 
 To swap in real photos later, replace these files (keeping the same

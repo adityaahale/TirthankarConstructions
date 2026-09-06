@@ -1,19 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder photo of the Tirthankars Contractor team">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Tirthankars Contractor logo">
+  <title>Tirthankars Contractor — Build, Renovate, Repair</title>
   <defs>
-    <linearGradient id="bg-about" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1f2933"/>
       <stop offset="100%" stop-color="#12181f"/>
     </linearGradient>
+    <radialGradient id="badge-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f2994a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#f2994a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0 L0 0 L0 50" fill="none" stroke="#f2994a" stroke-width="1" stroke-opacity="0.06"/>
+    </pattern>
   </defs>
-  <rect width="800" height="600" fill="url(#bg-about)"/>
-  <g opacity="0.15" stroke="#f2994a" stroke-width="24">
-    <line x1="-50" y1="650" x2="650" y2="-50"/>
-    <line x1="150" y1="650" x2="850" y2="-50"/>
+
+  <!-- Ground + blueprint grid -->
+  <rect width="800" height="600" fill="url(#card-bg)"/>
+  <rect width="800" height="600" fill="url(#blueprint)"/>
+  <ellipse cx="400" cy="180" rx="260" ry="200" fill="url(#badge-glow)"/>
+
+  <!-- Corner brackets -->
+  <g fill="none" stroke="#f2994a" stroke-width="3" stroke-opacity="0.55" stroke-linecap="square">
+    <path d="M30 70 V30 H70"/>
+    <path d="M730 30 H770 V70"/>
+    <path d="M30 530 V570 H70"/>
+    <path d="M770 530 V570 H730"/>
   </g>
-  <circle cx="400" cy="250" r="90" fill="none" stroke="#f2994a" stroke-width="6"/>
-  <g stroke="#f2994a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M360 260 l30 30 l50 -60"/>
+
+  <!-- Logo mark — kept in sync with images/logo-mark.svg -->
+  <g transform="translate(330 105) scale(1.1667)">
+    <polygon points="112,60 86,105 34,105 8,60 34,15 86,15"
+             fill="#1f2933" stroke="#f2994a" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M34 42 L60 26 L86 42" fill="none" stroke="#f2994a"
+          stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 54 H78 V64 H65 V82 H55 V64 H42 Z" fill="#f2994a"/>
+    <path d="M60 82 L66 88 L60 94 L54 88 Z" fill="#f2994a"/>
   </g>
-  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#e8e6e3" letter-spacing="1">Your Team Photo Here</text>
-  <text x="400" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9aa5b1">Replace images/about.svg with a real photo</text>
+
+  <!-- Wordmark -->
+  <text x="403" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="46" font-weight="bold" letter-spacing="6" fill="#e8e6e3">TIRTHANKARS</text>
+  <text x="406.5" y="352" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" letter-spacing="13" fill="#f2994a">CONTRACTOR</text>
+
+  <line x1="300" y1="384" x2="500" y2="384" stroke="#f2994a" stroke-width="2" stroke-opacity="0.55"/>
+
+  <text x="400" y="422" text-anchor="middle"
+        font-family="'Nirmala UI', 'Kohinoor Devanagari', 'Noto Sans Devanagari', Arial, sans-serif"
+        font-size="24" fill="#9aa5b1">तीर्थंकर्स कॉन्ट्रैक्टर</text>
+
+  <text x="402.5" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" letter-spacing="5" fill="#9aa5b1" fill-opacity="0.85">BUILD · RENOVATE · REPAIR</text>
+  <text x="402" y="502" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="13" letter-spacing="4" fill="#9aa5b1" fill-opacity="0.6">WARJE, PUNE</text>
 </svg>
