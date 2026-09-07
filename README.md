@@ -84,15 +84,25 @@ To swap in real photos later, replace these files (keeping the same
 filenames referenced in `index.html`, or update the `src`/`style`
 references if you rename them, e.g. to `.jpg`).
 
-## Contact form
+## Contact
 
-The contact form in the Contact section is **UI-only** right now — it does
-not send an email or hit a server. On submit it just shows a confirmation
-message client-side (see `js/main.js`). To make it actually deliver
-messages, connect a free form backend such as [Formspree](https://formspree.io):
-add your form's endpoint as the `<form action="...">` in `index.html` and
-remove the `preventDefault()` handling in `js/main.js` (marked with a
-`TODO` comment at both spots).
+There is deliberately **no contact form**. Visitors get in touch by phone
+or WhatsApp — both are click-to-action links, so they work on mobile with
+one tap.
+
+An earlier version had a form, but it was never wired to a backend: it
+showed a "thanks" message and then discarded the submission. A form that
+silently drops enquiries is worse than no form, because people believe
+they've made contact and then wait for a reply that isn't coming. It was
+removed rather than left in place looking functional.
+
+To add a real one later, the site is static so it needs a third-party form
+backend — [Formspree](https://formspree.io) has a free tier. Add a `<form
+action="https://formspree.io/f/YOUR_ID" method="POST">` inside the
+`.contact-grid` in `index.html`; no JavaScript is needed, since the form
+posts directly. Note that `.contact-grid` is currently a two-column grid
+holding the contact details and the map, so adding a third child means
+rethinking that layout.
 
 ## Deployment (Vercel, free)
 
